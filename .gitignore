@@ -1,3 +1,15 @@
-/venv
-
+# Ignore virtual environment directory
 venv/
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
