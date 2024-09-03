@@ -31,7 +31,7 @@ function App() {
       <h1>Instagram Caption Generator</h1>
       <form onSubmit={handleSubmit}>
         <input type="file" onChange={handleFileChange} />
-        <button type="submit">Generate Caption</button>
+        <button type="submit">Generate a Caption</button>
       </form>
       {caption && (
         <div>
