@@ -28,10 +28,10 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Instagram Caption Generator</h1>
+      <h1>AI Powered Instagram Caption Generator</h1>
       <form onSubmit={handleSubmit}>
         <input type="file" onChange={handleFileChange} />
-        <button type="submit">Generate a Caption</button>
+        <button type="submit">Generate a Caption!</button>
       </form>
       {caption && (
         <div>
