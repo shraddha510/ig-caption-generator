@@ -5,7 +5,7 @@ def main():
     print("PyTorch version:", torch.__version__)
     print("Transformers library loaded successfully.")
     
-    print("Starting to load model..")
+    print("Starting to load model...")
     model = GPT2LMHeadModel.from_pretrained('distilgpt2', verbose=True)
     print("Model loaded successfully.")
     
